@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -121,8 +121,11 @@ function ResponsiveDrawer(props) {
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
+
+
     };
-    
+    const container = window !== undefined ? () => window().document.body : undefined;
+
     const drawer = (
         <div>
             <div className={classes.toolbar} />
@@ -146,8 +149,7 @@ function ResponsiveDrawer(props) {
             </List>
         </div>
     );
-    const container = window !== undefined ? () => window().document.body : undefined;
-
+ 
     return (
         <div className={classes.root}>
             <CssBaseline />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -77,13 +77,22 @@ export default function MediaCard({ cardData }: cardDataProps) {
     const [newBeerFromId, setnewBeerFromId] = React.useState();
 
 
+ 
     const handleOpen = (e, id) => {
         setOpen(true);
         setnewBeerFromId(id);
+// NOTE: Here I was planning on setting a timer and use react contexts to count how long the person was viewing the content (but ran out of time)
+            // const interval = setInterval(() => {
+            //   console.log('This will run every second!');
+            // }, 1000);
+            // return () => clearInterval(interval);
+
     };
 
-    const handleClose = () => {
+    const handleClose = (interval) => {
         setOpen(false);
+        // clearInterval(interval);
+
     };
 
 
