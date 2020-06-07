@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stellify-media/precache-manifest.21936e08380976a77e2aaa7165e79876.js"
+  "/stellify-media/precache-manifest.13bd5b7f72e2a19cd6f826d7680285fd.js"
 );
 
 self.addEventListener('message', (event) => {
