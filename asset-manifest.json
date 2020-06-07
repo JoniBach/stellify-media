@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/stellify-media/static/css/main.98362aad.chunk.css",
-    "main.js": "/stellify-media/static/js/main.120e2925.chunk.js",
-    "main.js.map": "/stellify-media/static/js/main.120e2925.chunk.js.map",
+    "main.js": "/stellify-media/static/js/main.72e970eb.chunk.js",
+    "main.js.map": "/stellify-media/static/js/main.72e970eb.chunk.js.map",
     "runtime-main.js": "/stellify-media/static/js/runtime-main.e88c48cf.js",
     "runtime-main.js.map": "/stellify-media/static/js/runtime-main.e88c48cf.js.map",
-    "static/js/2.2a7c8e18.chunk.js": "/stellify-media/static/js/2.2a7c8e18.chunk.js",
-    "static/js/2.2a7c8e18.chunk.js.map": "/stellify-media/static/js/2.2a7c8e18.chunk.js.map",
+    "static/js/2.c1cbf240.chunk.js": "/stellify-media/static/js/2.c1cbf240.chunk.js",
+    "static/js/2.c1cbf240.chunk.js.map": "/stellify-media/static/js/2.c1cbf240.chunk.js.map",
     "index.html": "/stellify-media/index.html",
-    "precache-manifest.13bd5b7f72e2a19cd6f826d7680285fd.js": "/stellify-media/precache-manifest.13bd5b7f72e2a19cd6f826d7680285fd.js",
+    "precache-manifest.ecbfc4e5b67fea67019c68f982de90dd.js": "/stellify-media/precache-manifest.ecbfc4e5b67fea67019c68f982de90dd.js",
     "service-worker.js": "/stellify-media/service-worker.js",
     "static/css/main.98362aad.chunk.css.map": "/stellify-media/static/css/main.98362aad.chunk.css.map",
-    "static/js/2.2a7c8e18.chunk.js.LICENSE.txt": "/stellify-media/static/js/2.2a7c8e18.chunk.js.LICENSE.txt"
+    "static/js/2.c1cbf240.chunk.js.LICENSE.txt": "/stellify-media/static/js/2.c1cbf240.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e88c48cf.js",
-    "static/js/2.2a7c8e18.chunk.js",
+    "static/js/2.c1cbf240.chunk.js",
     "static/css/main.98362aad.chunk.css",
-    "static/js/main.120e2925.chunk.js"
+    "static/js/main.72e970eb.chunk.js"
   ]
 }
