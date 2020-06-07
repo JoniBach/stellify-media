@@ -158,8 +158,8 @@ export default function MediaCard({ cardData }: cardDataProps) {
                     <Fade in={open}>
                         <div className={classes.paper}>
                             <iframe width="100%" height="100%" src={data.href} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <h2 id="spring-modal-title">Spring modal</h2>
-                            <p id="spring-modal-description">react-spring animates me.</p>
+                <h2 id="spring-modal-title">{data.title}</h2>
+                            <p id="spring-modal-description">{data.description}</p>
                         </div>
                     </Fade>
                 </Modal>
