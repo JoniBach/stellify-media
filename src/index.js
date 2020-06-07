@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { TrackingProvider } from './Contexts/TrackingContext'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* Note: Here we are wrapping our app in a Context Provider */}
+    <TrackingProvider>
+      <App />
+    </TrackingProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
