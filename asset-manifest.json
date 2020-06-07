@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stellify-media/static/css/main.98362aad.chunk.css",
-    "main.js": "/stellify-media/static/js/main.5561b806.chunk.js",
-    "main.js.map": "/stellify-media/static/js/main.5561b806.chunk.js.map",
+    "main.js": "/stellify-media/static/js/main.e510499e.chunk.js",
+    "main.js.map": "/stellify-media/static/js/main.e510499e.chunk.js.map",
     "runtime-main.js": "/stellify-media/static/js/runtime-main.e88c48cf.js",
     "runtime-main.js.map": "/stellify-media/static/js/runtime-main.e88c48cf.js.map",
     "static/js/2.3476cd63.chunk.js": "/stellify-media/static/js/2.3476cd63.chunk.js",
     "static/js/2.3476cd63.chunk.js.map": "/stellify-media/static/js/2.3476cd63.chunk.js.map",
     "index.html": "/stellify-media/index.html",
-    "precache-manifest.a4fab42ba9462475ffe43440953792ec.js": "/stellify-media/precache-manifest.a4fab42ba9462475ffe43440953792ec.js",
+    "precache-manifest.af7b7fb05ab39094e735dbae67bfe51b.js": "/stellify-media/precache-manifest.af7b7fb05ab39094e735dbae67bfe51b.js",
     "service-worker.js": "/stellify-media/service-worker.js",
     "static/css/main.98362aad.chunk.css.map": "/stellify-media/static/css/main.98362aad.chunk.css.map",
     "static/js/2.3476cd63.chunk.js.LICENSE.txt": "/stellify-media/static/js/2.3476cd63.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e88c48cf.js",
     "static/js/2.3476cd63.chunk.js",
     "static/css/main.98362aad.chunk.css",
-    "static/js/main.5561b806.chunk.js"
+    "static/js/main.e510499e.chunk.js"
   ]
 }
